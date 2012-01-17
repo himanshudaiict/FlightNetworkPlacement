@@ -1,0 +1,23 @@
+Problem 1
+Part a
+Step 1 :- Implemented ordinary Push and Pop for a regular stack.
+Step 2 :- Implemented constraints as given in the problem-
+          (i)The number which user is inputting  should be greater then equal to 0 and less 	     then or equal to 9.
+          (ii) Take input sequentially i.e. number which to be inputted should be just 	                   greater then the last input.
+Part b
+Step 1 :- Take sequence as an input from user and store it in an array.
+Step 2 :- the next number in the sequence should be either greater or equal to the last Step 3 :- Numbers is Pushed in the Stack till equal to first number than it is popped and 	then check the  popped number. 
+
+
+Problem 2
+1. Take input from user of n and m.
+2. Created an array(circle) of size m.Initialized values from 1 to n.
+3. Created a temporary(temp) array.
+4. loop if m>1
+	(i) copy circle elements in temp array.
+	(ii) reinitialize circle elements to 1st element as n+1,2nd element as n+2 and so 	     on.
+	(iii) decrement m 
+5. Print result.
+
+
+
